@@ -13,3 +13,4 @@ if __name__ == "__main__":
     print(check(123)) # False
     print(check(777)) # True
     print(check(9999999)) # True
+    

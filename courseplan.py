@@ -1,6 +1,6 @@
-# Lisää annetut kurssit ja niiden esitietovaatimukset. 
-# Tulosta kurssit niiden suoritusjärjestyksessä esitietovaatimusten mukaisesti.
-# Jos tapaa ei ole, palauta None
+"""Lisää annetut kurssit ja niiden esitietovaatimukset. 
+Tulosta kurssit niiden suoritusjärjestyksessä esitietovaatimusten mukaisesti.
+Jos tapaa ei ole, palauta None"""
 
 class CoursePlan:
     def __init__(self):
@@ -45,9 +45,9 @@ if __name__ == "__main__":
     c.add_course("Ohja")
     c.add_course("Tira")
     c.add_course("Jym")
-    c.add_requisite("Ohpe","Ohja")
-    c.add_requisite("Ohja","Tira")
-    c.add_requisite("Jym","Tira")
-    print(c.find()) # [Ohpe,Jym,Ohja,Tira]
-    c.add_requisite("Tira","Tira")
+    c.add_requisite("Ohpe", "Ohja")
+    c.add_requisite("Ohja", "Tira")
+    c.add_requisite("Jym", "Tira")
+    print(c.find()) # [Ohpe, Jym, Ohja, Tira]
+    c.add_requisite("Tira", "Tira")
     print(c.find()) # None

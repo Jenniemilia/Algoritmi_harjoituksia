@@ -7,8 +7,7 @@ class FlipList:
 
     def push_last(self,x):
         self.lista.append(x)
-        self.kaanteinen.appendleft(x)
-        
+        self.kaanteinen.appendleft(x)       
 
     def push_first(self,x):
         self.lista.appendleft(x)
@@ -38,3 +37,4 @@ if __name__ == "__main__":
     print(f.pop_last())
     print(f.pop_last())
     print(f.pop_last())
+    

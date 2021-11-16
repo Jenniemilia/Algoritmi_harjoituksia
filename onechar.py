@@ -7,11 +7,11 @@ def count(s):
             osajonot += 1
         else:
             osajonot = 1
-        laskuri += osajonot
-                
+        laskuri += osajonot                
     return laskuri
 
 if __name__ == "__main__":
     print(count("aaa")) # 6
     print(count("abbbcaa")) # 11
     print(count("abcde")) # 5
+    

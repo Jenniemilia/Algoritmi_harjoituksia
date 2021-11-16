@@ -41,7 +41,6 @@ if __name__ == "__main__":
         c.add_road(a,b)
     
     loppuaika = time.time()
-
     print(c.count())
     print(loppuaika-alkuaika)
     

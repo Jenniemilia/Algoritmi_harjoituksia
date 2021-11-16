@@ -3,7 +3,7 @@ def count(s):
     n = len(s)
     for i in range(n):
         pino.append(s[i])
-        if len(pino) >= 2 and pino[-2]== "(" and pino[-1] == ")":
+        if len(pino) >= 2 and pino[-2] == "(" and pino[-1] == ")":
             pino.pop()
             pino.pop()
     return len(pino)    

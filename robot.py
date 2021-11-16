@@ -1,7 +1,5 @@
 def count(s):
-    paikat = {} #x, y
-    
-   
+    paikat = {} #x, y  
     paikat[0,0] = 1
     x = 0
     y = 0
@@ -16,8 +14,7 @@ def count(s):
             sijainti = (x, y)
             if sijainti not in paikat:
                 paikat[sijainti] = 1 
-                laskuri += 1
-                              
+                laskuri += 1                              
         if i == "R":
             x = x+1
             y = y

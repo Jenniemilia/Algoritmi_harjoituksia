@@ -8,7 +8,7 @@ class Mode:
     def add(self, x):
         if x not in self.luvut:
             self.luvut[x] = 0
-            if self.edellinen == None:
+            if self.edellinen is None:
                 self.edellinen = x
         self.luvut[x] +=1
         if self.luvut.get(x) == self.korkein and x > self.edellinen:
@@ -16,8 +16,7 @@ class Mode:
         elif self.luvut.get(x) == self.korkein and x < self.edellinen:
             self.yleisin = x
             self.edellinen = x
-            return x
-            
+            return x           
         elif self.luvut.get(x) > self.korkein:
             self.korkein = self.luvut[x]
             self.yleisin = x

@@ -1,10 +1,9 @@
-
-def generate(n:int):
+def generate(n: int):
     if n == 1:
         return str(1)
     j = "1" # ensimmainen arvo
     
-    def apufunktio(j:str):
+    def apufunktio(j: str):
         tuloste = "" 
         i = 0
         while i < len(j):
@@ -15,8 +14,7 @@ def generate(n:int):
             tuloste = tuloste + str(count) + j[i]
             i += 1
         return tuloste  
-
-    for i in range (n-1):
+    for i in range(n-1):
         j = apufunktio(j)
     return j
 

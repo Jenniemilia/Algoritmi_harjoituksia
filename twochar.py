@@ -1,6 +1,6 @@
 def count(s):
     pituus = len(s)
-    ed_erimerkki =  -1
+    ed_erimerkki = -1
     erimerkki = -1
     laskuri = 0
 
@@ -17,3 +17,4 @@ if __name__ == "__main__":
     print(count("aaaa")) # 0
     print(count("abab")) # 6
     print(count("aabacba")) # 8
+    
