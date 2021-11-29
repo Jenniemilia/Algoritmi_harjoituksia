@@ -1,7 +1,7 @@
 # Algoritmi_harjoituksia
 
 
-Helsingin yliopisto Tietorakenteet ja Algoritmit kurssin I ja II tehtäviä.  
+Helsingin yliopiston Tietorakenteet ja Algoritmit kurssin I ja II tehtäviä.  
 
 Kurssilla harjoiteltuja asoita olivat mm.
 
